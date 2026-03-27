@@ -5,6 +5,7 @@ import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import "remixicon/fonts/remixicon.css";
 import Navbar from "./Navbar";
+import WhatIDo from "./WhatIDo";
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -444,6 +445,7 @@ function HomePage({ mainRef }) {
       </section>
 
       <MarqueeStrip />
+      <WhatIDo />
       <AboutStrip />
       <FeaturedDrops />
       <FullWidthBanner />

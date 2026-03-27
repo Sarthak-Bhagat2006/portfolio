@@ -113,9 +113,13 @@ function Navbar({ activePage, setActivePage }) {
         }}
         onMouseEnter={(e) => (e.currentTarget.style.background = T.orange)}
         onMouseLeave={(e) => (e.currentTarget.style.background = T.gold)}
-        onClick={() => window.open("https://github.com/Sarthak-Bhagat2006")}
+        onClick={() =>
+          window.open(
+            "https://drive.google.com/file/d/1DTSG-TDLNhTDzFhZpe7oRFiuyNV18mzl/view?usp=sharing"
+          )
+        }
       >
-        GitHub
+        Download Resume
       </button>
 
       {open && (
